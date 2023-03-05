@@ -28,6 +28,7 @@ def read_root():
 
     return HTMLResponse(content=html_content)
 
+
 @app.get("/about")
 def read_about():
     html_content="""
